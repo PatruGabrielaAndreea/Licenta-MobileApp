@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="Notifications Settings">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="notifications"
+            android:title="Notifications"
+            android:summary="Enable or disable notifications" />
+
+        <SwitchPreferenceCompat
+            android:key="allow_vibration"
+            android:title="Allow vibration"
+            android:summary="Enable or disable vibration"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="notification_time"
+            android:title="Notification Time"
+            android:summary="Choose the time until which you will receive notifications"
+            android:entries="@array/notification_times"
+            android:entryValues="@array/notification_time_values"
+            android:defaultValue="12:00" />
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory
+        android:title="Appearence">
+
+        <ListPreference
+            android:key="theme"
+            android:title="Theme"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="AppTheme.Light" />
+
+    </PreferenceCategory> -->
+
+</PreferenceScreen>

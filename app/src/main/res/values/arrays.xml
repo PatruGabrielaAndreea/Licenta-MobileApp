@@ -1,0 +1,49 @@
+<resources>
+    <!-- Theme Preference -->
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>AppTheme.Light</item>
+        <item>AppTheme.Dark</item>
+    </string-array>
+
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <!-- Notifications Categories -->
+    <string-array name="notification_categories">
+        <item>Toate</item>
+        <item>Stiri</item>
+        <item>Evenimente</item>
+        <item>Oferte</item>
+        <item>Proiecte</item>
+    </string-array>
+
+    <!-- Notification time -->
+    <string-array name="notification_times">
+        <item>08:00 AM</item>
+        <item>12:00 PM</item>
+        <item>04:00 PM</item>
+        <item>06:00 PM</item>
+        <item>00:00 AM</item>
+    </string-array>
+    <string-array name="notification_time_values">
+        <item>08:00</item>
+        <item>12:00</item>
+        <item>04:00</item>
+        <item>18:00</item>
+        <item>00:00</item>
+    </string-array>
+
+</resources>
